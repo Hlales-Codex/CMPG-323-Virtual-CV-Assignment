@@ -2,7 +2,7 @@
 #This repository contains my codebase for the CMPG 323 Virtual CV Assignment.
 
 #Project Structure
-**index.html – Homepage
+#index.html – Homepage
 **about.html – A brief background about me.
 resume.html – My Detailed resume with education, experience, and skills
 projects.html – My projects
