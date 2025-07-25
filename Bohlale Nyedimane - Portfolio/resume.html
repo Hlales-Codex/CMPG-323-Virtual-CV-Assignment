@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<div class="container">
+    <div class="dropdown-wrapper">
+        <button onclick="toggleDropdown()" class="dropdown-button">
+            ☰ Menu
+        </button>
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="contacts.html">Contact</a>
+  </div>
+</div>
+
+<header>
+  <h1>Resume</h1>
+</header>
+
+<script>
+  function toggleDropdown() {
+    var menu = document.getElementById("dropdownMenu");
+    menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
+
+    document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll("#dropdownMenu a");
+  links.forEach(function(link) {
+    link.addEventListener("click", () => {
+      document.getElementById("dropdownMenu").style.display = "none";
+    });
+  });
+});
+  }
+</script>
+
+<section>
+  <h2>Education</h2>
+  <p>Barchelor of Science in Information Technology – North West University,Vanderbijlpark Campus(In progress)</p>
+  <p>Barchelor Pass(NQF 5) – Phumula Gardens Secondary School(2015-2019)</p>
+
+  <h2>Experience</h2>
+
+  <h3>Recruiter | Langa Lesedi Holdings(2024-2025)</h3>
+  <p>-Conducted viewings of accommodations for prospective student tenants.</p>
+  <p>-Collected and managed data of interested students. </p>
+  <p>-Assisted with lease agreements and move-in coordination. </p>
+
+  <h3>Chairperson – Academic Chapter | North-West University(2022-2023)</h3>
+  <p>-Led the student academic chapter, overseeing planning and execution of academic events.</p>
+   <p>-Facilitated meetings, represented student interests, and coordinated with faculty.</p>
+    <p>-Managed a team of executives and promoted student engagement in academic initiatives.
+  </p>
+
+  <h3>Community and Stakeholder Engagement (CSE) Officer | North-West University(2021-2022)</h3>
+  <p>-Acted as a link between students and university stakeholders.</p>
+   <p>-Represented student concerns in community and academic forums.
+    <p>-Assisted in organizing outreach, awareness, and collaboration initiatives.</p>
+
+    <div style="text-align: center;">
+  <a href="DOC-20250716-WA0051..pdf" class="btn">View</a>
+  <a href="DOC-20250716-WA0051..pdf" class="btn">Download</a>
+</div>
+  </p>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Bohlale Nyedimane | Virtual portfolio</p>
+  <p>
+    <a href="https://github.com/Hlales-Codex" target="_blank">GitHub</a> |
+    <a href="mailto:nyedimaneb@gmail.com">Email Me</a>
+  </p>
+</footer>
+
+</body>
+</html>

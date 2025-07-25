@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certifications & Awards</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="dropdown-wrapper">
+        <button onclick="toggleDropdown()" class="dropdown-button">
+            ☰ Menu
+        </button>
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="contacts.html">Contact</a>
+  </div>
+</div>
+
+<header>
+  <h1>Certifications & Awards</h1>
+</header>
+
+<script>
+  function toggleDropdown() {
+    var menu = document.getElementById("dropdownMenu");
+    menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
+
+    document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll("#dropdownMenu a");
+  links.forEach(function(link) {
+    link.addEventListener("click", () => {
+      document.getElementById("dropdownMenu").style.display = "none";
+    });
+  });
+});
+  }
+</script>
+
+<section>
+  <ul>
+    <li>Financial Management - Toyota(2025)</li>
+    <li>Student Leadership Award(Chairperson) – North West University(2022-2023)</li>
+    <li>Student Leadership Award(Community Stakeholders And Engagement Officer) – North West University(2021-2022)</li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Bohlale Nyedimane | Virtual portfolio</p>
+  <p>
+    <a href="https://github.com/Hlales-Codex" target="_blank">GitHub</a> |
+    <a href="mailto:nyedimaneb@gmail.com">Email Me</a>
+  </p>
+</footer>
+
+</body>
+</html>

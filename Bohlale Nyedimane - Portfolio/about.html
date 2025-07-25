@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="dropdown-wrapper">
+        <button onclick="toggleDropdown()" class="dropdown-button">
+            ☰ Menu
+        </button>
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="contacts.html">Contact</a>
+  </div>
+</div>
+
+<header>
+  <h1>About Me</h1>
+</header>
+
+
+<script>
+  function toggleDropdown() {
+    var menu = document.getElementById("dropdownMenu");
+    menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
+
+    document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll("#dropdownMenu a");
+  links.forEach(function(link) {
+    link.addEventListener("click", () => {
+      document.getElementById("dropdownMenu").style.display = "none";
+    });
+  });
+});
+  }
+</script>
+
+<section>
+  <h2>Background</h2>
+  <p>I’m a final-year Information Technology student at North-West University Vanderbijlpark Campus, with a deep passion for Artificial Intelligence and data-driven innovation. My university journey has been defined by both academic growth and leadership. I started as a dedicated CSE Officer and worked my way up to become the Chairperson of our academic chapter, where I led initiatives that strengthened student engagement and collaboration. These experiences honed my communication, problem-solving, and leadership skills — all of which fuel my drive to use technology to make a meaningful impact. I’m especially inspired by how AI can solve real-world challenges, and I’m eager to keep learning, building, and contributing in this space.</p>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Bohlale Nyedimane | Virtual portfolio</p>
+  <p>
+    <a href="https://github.com/Hlales-Codex" target="_blank">GitHub</a> |
+    <a href="mailto:nyedimaneb@gmail.com">Email Me</a>
+  </p>
+</footer>
+
+</body>
+</html>
