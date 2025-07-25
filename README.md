@@ -1,13 +1,13 @@
 # CMPG-323-Virtual-CV-Assignment
-This repository contains my codebase for the CMPG 323 Virtual CV Assignment.
+#This repository contains my codebase for the CMPG 323 Virtual CV Assignment.
 
-Project Structure
-index.html – Landing/Homepage with my picture and introduction
-about.html – Background and passion for AI
-resume.html – Detailed resume with education, experience, and skills
-projects.html – A collection of my projects
+#Project Structure
+**index.html – Homepage
+**about.html – A brief background about me.
+resume.html – My Detailed resume with education, experience, and skills
+projects.html – My projects
 skills.html – Technical skills and tools I’m familiar with
-certifications.html – Certifications and awards
+certifications.html – Certifications
 contact.html – Contact form and details
 style.css – Main stylesheet used across all pages
 /images – Folder for images and background visuals
