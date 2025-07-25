@@ -14,13 +14,14 @@
 -/images – Folder for images and background visuals
 
 #Design
-Color scheme: Black and Neon Green (Techy Look)
-Responsive design: Works on both desktops and mobile devices
-Built with: HTML5 + CSS3 (No frameworks or JavaScript used)
-Live Preview
-Click the link below to view the website: https://Hlales-Codex.github.io/
+-Color scheme: Black and Neon Green (Techy Look)
+-Responsive design: Works on both desktops and mobile devices
+-Built with: HTML5 + CSS3 (No frameworks or JavaScript used)
 
-Author
-Name: Bohlale Nyedimane
-Role: Final Year IT Student
-Focus: Artificial Intelligence & Web Development
+#Live Preview
+-Click the link below to view the website: https://Hlales-Codex.github.io/
+
+#Author
+-Name: Bohlale Nyedimane
+-Role: Final Year IT Student
+-Focus: Artificial Intelligence & Web Development
